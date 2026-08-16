@@ -1,0 +1,33 @@
+{
+  "name": "logseq-live-tennis",
+  "version": "0.1.0",
+  "description": "Capture tennis into your Logseq notes — today's fixtures, recent results, player rankings, and one-shot live-score snapshots from the Live Tennis API.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/livetennisapi/logseq-live-tennis"
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "logseq": {
+    "id": "logseq-live-tennis",
+    "title": "Tennis Capture",
+    "icon": "./logo.svg",
+    "main": "dist/index.html"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "vite-plugin-logseq": "^1.1.2",
+    "vitest": "^3.0.0"
+  }
+}
