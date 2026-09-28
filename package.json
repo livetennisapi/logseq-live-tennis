@@ -2,6 +2,10 @@
   "name": "logseq-live-tennis",
   "version": "0.1.0",
   "description": "Capture tennis into your Logseq notes — today's fixtures, recent results, player rankings, and one-shot live-score snapshots from the Live Tennis API.",
+  "author": {
+    "name": "Synapse Research Ltd",
+    "url": "https://synapsereality.io"
+  },
   "type": "module",
   "license": "MIT",
   "repository": {
